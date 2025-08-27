@@ -47,7 +47,7 @@ Create a file named `payload.json`:
 ```
 Then run:
 ```bash
-NotifyTeams.exe --url "https://webhook.site/your-id" --json "payload.json"
+SupYo.exe --url "https://webhook.site/your-id" --json "payload.json"
 ```
 
 #### Pipe Input from Standard Input
@@ -59,7 +59,7 @@ echo "Hello from stdin" | NotifyTeams.exe --url "https://webhook.site/your-id"
 
 Set a custom timeout (in seconds):
 ```bash
-NotifyTeams.exe --url "https://webhook.site/your-id" --text "Test" --timeout 5
+SupYo.exe --url "https://webhook.site/your-id" --text "Test" --timeout 5
 ```
 
 ### Environment Variables
